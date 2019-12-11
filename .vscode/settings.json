@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "files.associations": {
+    "*.css": "css"
+  },
+  "typescript.suggest.autoImports": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ]
+}
