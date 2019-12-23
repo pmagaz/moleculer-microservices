@@ -5,11 +5,6 @@
     "es6": true
   },
   "settings": {
-    "react": {
-      "createClass": "createReactClass",
-      "pragma": "React",
-      "version": "16.8"
-    },
     "propWrapperFunctions": [
       "forbidExtraProps",
       {
