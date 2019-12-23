@@ -2,8 +2,8 @@
   "name": "moleculer-microservices",
   "author": "Pablo Magaz",
   "license": "MIT",
-  "version": "0.0.1",
-  "description": "Moleculer Microservices Example",
+  "version": "0.1.1",
+  "description": "Microservices with Moleculer and TypeScript Example",
   "scripts": {
     "tsc": "tsc",
     "start": "ts-node ./node_modules/moleculer/bin/moleculer-runner.js --repl --envfile .env/.env.dev src/services/**/*.service.ts",
@@ -13,7 +13,8 @@
   "keywords": [
     "microservices",
     "moleculer",
-    "nats"
+    "nats",
+    "typescript"
   ],
   "husky": {
     "hooks": {
@@ -39,13 +40,9 @@
     "typescript": "3.7.3"
   },
   "dependencies": {
-    "compression": "^1.7.4",
     "cross-env": "6.0.3",
     "dotenv": "8.2.0",
-    "helmet": "3.21.2",
-    "mime-types": "2.1.25",
     "moleculer": "0.13.11",
-    "moleculer-db": "0.8.4",
     "moleculer-repl": "0.6.1",
     "moleculer-web": "0.9.0-beta6",
     "nats": "1.3.2",
