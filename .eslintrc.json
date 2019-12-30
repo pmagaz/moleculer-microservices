@@ -81,7 +81,7 @@
     "import/extensions": 0,
     "import/named": 0,
     "object-curly-spacing": [2, "always"],
-    "template-curly-spacing": [2, "always"],
+    "template-curly-spacing": [0, "always"],
     "import/namespace": 0,
     "import/no-unresolved": 0,
     "import/no-named-as-default": 0,

@@ -3,7 +3,7 @@
   "author": "Pablo Magaz",
   "license": "MIT",
   "version": "0.1.1",
-  "description": "Microservices with Moleculer and TypeScript Example",
+  "description": "Microservices with Moleculer and TypeScript",
   "scripts": {
     "tsc": "tsc",
     "start": "ts-node ./node_modules/moleculer/bin/moleculer-runner.js --repl --envfile .env/.env.dev src/services/**/*.service.ts",
@@ -40,7 +40,6 @@
     "typescript": "3.7.3"
   },
   "dependencies": {
-    "cross-env": "6.0.3",
     "dotenv": "8.2.0",
     "moleculer": "0.13.11",
     "moleculer-repl": "0.6.1",
