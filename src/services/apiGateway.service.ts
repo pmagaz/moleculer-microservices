@@ -12,7 +12,10 @@ const ApiGateWayService: ServiceSchema = {
         aliases: {
           "GET /helloWorld": "helloWorld.sayHello",
           "POST /sayHelloTo": "helloWorld.sayHelloTo",
-          "GET /sayHelloTo/:name": "helloWorld.sayHelloTo"
+          "GET /sayHelloTo/:name": "helloWorld.sayHelloTo",
+          "GET /sayHelloWithPosts/:name": "helloWorld.sayHelloWithPosts",
+          "POST /sayHelloWithPosts/": "helloWorld.sayHelloWithPosts",
+          "GET /posts": "posts.getNumPosts"
         }
       }
     ],
