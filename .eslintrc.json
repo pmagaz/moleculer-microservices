@@ -83,6 +83,7 @@
     "object-curly-spacing": [2, "always"],
     "template-curly-spacing": [0, "always"],
     "import/namespace": 0,
+    "no-shadow": [0, { "builtinGlobals": false, "hoist": "all", "allow": [] }],
     "import/no-unresolved": 0,
     "import/no-named-as-default": 0,
     "import/prefer-default-export": 0,
