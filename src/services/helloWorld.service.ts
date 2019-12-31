@@ -14,7 +14,7 @@ const helloWorld: ServiceSchema = {
 
     async sayHelloWithPosts(ctx: Context): Promise<string> {
       const { name } = ctx.params;
-      const numPosts = await ctx.call('posts.getNumPosts');
+      const numPosts = await ctx.call("posts.getNumPosts");
       return `Hello ${name}!. There are ${numPosts} posts in this blog.`;
     },
 
