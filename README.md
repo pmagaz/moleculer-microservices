@@ -1,6 +1,6 @@
 # Moleculer Microservices and Typescript 
 
-This repository is an example of Microservices using [Moleculer](https://moleculer.services/), [Nats](https://nats.io/) messagin system and [Typescript](https://www.typescriptlang.org/).
+This repository is an example of Microservices using [Moleculer](https://moleculer.services/), [Nats](https://nats.io/) messaging system and [Typescript](https://www.typescriptlang.org/).
 
 ## Table of contents
 
